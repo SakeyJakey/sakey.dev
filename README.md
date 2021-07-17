@@ -1,7 +1,7 @@
 # sakey.dev
 <a href="https://sakey.dev">My website</a>
 
-#To Do
+# To Do
 - [x] Connect website to sakey.dev
 - [ ] Add mobile layout
 - [x] Add favicon
