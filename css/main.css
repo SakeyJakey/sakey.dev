@@ -1,3 +1,5 @@
+/* Main */
+
 *{
     font-family: 'Montserrat', sans-serif;
     user-select: none;
@@ -29,6 +31,7 @@ body{
   background-color: #495464;
 }
 
+/* Nav */
 
 .nav{
     padding: 2%;
@@ -58,6 +61,8 @@ body{
   font-size: x-large;
 }
 
+/* Section and sections */
+
 .section{
     background-size: cover;
     min-height: 100vh;
@@ -68,6 +73,7 @@ body{
     padding: none;
     margin: none;
 }
+
 .main{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -75,6 +81,8 @@ body{
   padding: none;
   margin: none;
 }
+
+/* Home */
 
 .home{
   display: block;
@@ -97,6 +105,8 @@ body{
   padding-top: none;
   animation: FadeAndFlyIn 3s ease-out;
 }
+
+/* Projects */
 
 .projects{
   display: block;
@@ -132,7 +142,7 @@ body{
   
   margin-top: 10vh;
 
-  /* Glassmorphisim stuff */
+  /*  Dark glassmorphisim */
   background: rgba( 0, 0, 0, 0.25 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
@@ -143,6 +153,9 @@ body{
 .project-box-title{
   font-size: 5vh;
 }
+
+/* Discord bot */
+
 .discord-bot{
   display: block;
   align-items: center;
@@ -159,6 +172,9 @@ body{
   margin: 0;
   margin-top: 10vh;
 }
+
+/* Repo */
+
 .repo{
   display: block;
   align-items: center;
@@ -175,6 +191,9 @@ body{
   margin: 0;
   margin-top: 10vh;
 }
+
+/* Contact */
+
 .contact{
   display: block;
   align-items: center;
@@ -192,6 +211,8 @@ body{
   margin-top: 10vh;
 }
 
+/* Back to top icon */
+
 .backToTop{
   width: 3vh;
   height: 3vh;
@@ -206,6 +227,7 @@ body{
   right: 50px;
 }
 
+/* Animations */
 
 @keyframes FadeAndFlyIn{
   from{transform: translateY(200px); opacity: 0%;}
