@@ -153,6 +153,9 @@ body{
 .project-box-title{
   font-size: 5vh;
 }
+.project-box-description{
+  font-size: 2vh;
+}
 
 /* Discord bot */
 
