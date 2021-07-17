@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Sakey</title>
+</head>
+<body>
+
+    <div id="navbar" class="nav-container">
+        <div class="nav nav-home" onclick="window.location.replace('#home');">🏠 Home</div>
+        <div class="nav nav-projects" onclick="window.location.replace('#projects');">🧪 Projects</div>
+        <div class="nav nav-projects" onclick="window.location.replace('#discord-bot');">🤖 Discord Bot</div>
+        <div class="nav nav-repo" onclick="window.location.replace('#repo');">➕ Repo</div>
+        <div class="nav nav-contact" onclick="window.location.replace('#contact');">💬 Contact</div>
+        
+        <div class="nav nav-text">Proudly coded with ❤ and no javascript</div>
+    </div>
+
+
+    <div auto class="main">
+        <section id='home' class="home section">
+            <h1 class="title" onclick="showSnackbar('stop-clicking-me')">Sakey</h1>
+            <h3 class="subtitle">Developer, coder and gamer...</h3>
+        </section>
+
+
+        <section id="projects" class="projects section">
+            <h1 class="projects-head">Projects</h1>
+            <div class="project-boxes">
+                <div class="discord-bot-pb project-box">
+                    <div class="discord-bot-pb-title project-box-title">Discord Bot</div>
+                    <div class="discord-bot-pb-subtitle project-box-title"><strong>This bot is designed for </strong></div>
+                    </thead>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="discord-bot" class="discord-bot section">
+            <h1 class="discord-bot-head">Discord Bot</h1>
+        </section>
+
+
+        <section id='repo' class="repo section">
+            <h1 class="repo-head">Repo</h1>
+        </section>
+
+
+        <section id="contact" class="contact section">
+            <h1 class="contact-head">Contact Me</h1>
+
+            <form action="https://formspree.io/f/xbjqaobb" method="POST">
+               <label>
+                 Your email:
+                <input type="email" name="_replyto">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+
+  <button type="submit">Send</button>
+</form>
+
+        </section>
+    </div>
+
+    <div class="backToTop" onclick="window.location.replace('#home');">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+
+</body>
+</html>

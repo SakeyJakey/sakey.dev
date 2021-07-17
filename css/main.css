@@ -1,0 +1,213 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+    scrollbar-3dlight-color: #495464;
+    scrollbar-arrow-color: #BBBFCA;
+    scrollbar-track-color: #F4F4F2;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #495464;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #BBBFCA;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F4F4F2;
+  }
+
+body{
+  overflow: hidden; 
+  background-color: #495464;
+}
+
+
+.nav{
+    padding: 2%;
+    display: inline;
+    font-size: xx-large;
+    transition: 0.5s ease-in-out;
+    color: #BBBFCA;
+}
+.nav:hover{
+    padding: 2%;
+    display: inline;
+    transition: 0.5s ease-in-out;
+    color: #F4F4F2;
+    transform: scale(1.5);
+}
+
+.nav-container{
+    width: 100%;
+    padding: 1%;
+    padding-top:2.5%;
+    display: flex;
+    position: absolute;
+    background-color: rgba(73, 84, 100, 0.75);
+}
+
+.nav-text{
+  font-size: x-large;
+}
+
+.section{
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    padding: none;
+    margin: none;
+}
+.main{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  padding: none;
+  margin: none;
+}
+
+.home{
+  display: block;
+  align-items: center;  
+  justify-content: center;
+  text-align: center;
+  color:white;
+
+  background-image: url("../img/home-bg.jpg");
+  background-attachment: fixed;
+}
+.title{
+  font-size: 20vh;
+  margin-bottom: 3vh;
+  padding-top: 30vh;
+  animation: FadeAndFlyIn 2s ease-out;
+}
+ 
+.subtitle{
+  padding-top: none;
+  animation: FadeAndFlyIn 3s ease-out;
+}
+
+.projects{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/projects-bg.jpg");
+  background-attachment: fixed;
+}
+.projects-head{
+  font-size: 10vh;
+  background-color: rgb(73, 84, 100);
+  padding: 5vh;
+  margin: 0;
+  margin-top: 10vh;
+}
+.project-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.project-box{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  width: 40vh;
+  height: 50vh;
+  
+  margin-top: 10vh;
+
+  /* Glassmorphisim stuff */
+  background: rgba( 0, 0, 0, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.project-box-title{
+  font-size: 5vh;
+}
+.discord-bot{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/discord-bot-bg.jpg");
+  background-attachment: fixed;
+}
+.discord-bot-head{
+  font-size: 10vh;
+  background-color: rgb(73, 84, 100);
+  padding: 5vh;
+  margin: 0;
+  margin-top: 10vh;
+}
+.repo{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/repo-bg.jpg");
+  background-attachment: fixed;
+}
+.repo-head{
+  font-size: 10vh;
+  background-color: rgb(73, 84, 100);
+  padding: 5vh;
+  margin: 0;
+  margin-top: 10vh;
+}
+.contact{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/contact-bg.jpg");
+  background-attachment: fixed;
+}
+.contact-head{
+  font-size: 10vh;
+  background-color: rgb(73, 84, 100);
+  padding: 5vh;
+  margin: 0;
+  margin-top: 10vh;
+}
+
+.backToTop{
+  width: 3vh;
+  height: 3vh;
+  border-radius: 100%;
+  background-color: #BBBFCA;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transform: scale(3);
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+
+@keyframes FadeAndFlyIn{
+  from{transform: translateY(200px); opacity: 0%;}
+  to{transform: translateY(0px); opacity: 100%;}
+}
