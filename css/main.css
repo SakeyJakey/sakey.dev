@@ -168,10 +168,13 @@ body{
 .project-box-download{
     background-color: #2ed573;
     border-radius: 50px;
-    shadow
+    padding: 3vh;
+    margin: 5vh
+    transition: animation 0.5s ease;
 }
 .project-box-download:hover{
     animation: glow 1s ease-in-out infinite alternate;
+    transition: animation 0.5s ease;
 }
     
 /* Discord bot */
