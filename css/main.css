@@ -40,6 +40,9 @@ body{
     transition: 0.5s ease-in-out;
     color: #BBBFCA;
 }
+.nav:not(.nav-text):hover{
+    color: #FFFFFF;
+}
 .nav:not(.nav-text)::after{
     content: '';
     display: block;
