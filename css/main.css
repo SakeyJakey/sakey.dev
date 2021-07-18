@@ -40,12 +40,17 @@ body{
     transition: 0.5s ease-in-out;
     color: #BBBFCA;
 }
-.nav:not(.nav-text):hover{
-    padding: 2%;
-    display: inline;
-    transition: 0.5s ease-in-out;
-    color: #F4F4F2;
-    transform: scale(1.5);
+.nav:not(.nav-text)::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFFFFF;
+    transition: width 0.3s;
+}
+.nav:not(.nav-text):hover::after{
+    width: 100%;
+    transition: width 0.3s;
 }
 
 .nav-container{
