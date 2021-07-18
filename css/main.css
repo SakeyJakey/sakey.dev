@@ -165,7 +165,15 @@ body{
 .project-box-description{
   font-size: 3vh;
 }
-
+.project-box-download{
+    background-color: #2ed573;
+    border-radius: 50px;
+    shadow
+}
+.project-box-download:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+    
 /* Discord bot */
 
 .discord-bot{
@@ -245,3 +253,13 @@ body{
   from{transform: translateY(200px); opacity: 0%;}
   to{transform: translateY(0px); opacity: 100%;}
 }
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+    
