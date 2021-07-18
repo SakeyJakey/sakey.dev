@@ -8,6 +8,6 @@
 - [ ] Fix back to top icon not displaying
 - [ ] Add stuff to projects
 - [ ] Add stuff to discord bot section
-- [ ] Add links to repo
+- [ ] Add links to repo and repo site
 - [ ] Style contact
 
