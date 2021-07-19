@@ -5,7 +5,7 @@
 - [x] Connect website to sakey.dev
 - [ ] Add mobile layout
 - [x] Add favicon
-- [ ] Fix back to top icon not displaying
+- [x] Fix back to top icon not displaying
 - [ ] Add stuff to projects
 - [ ] Add stuff to discord bot section
 - [ ] Add links to repo and repo site
