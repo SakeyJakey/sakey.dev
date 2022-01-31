@@ -60,8 +60,7 @@ body{
 .nav-container{
     width: 100%;
     padding: 1%;
-    padding-top:2.5%;
-    display: flex;
+    padding-top: 2.5%;
     position: absolute;
     background-color: rgba(73, 84, 100, 0.75);
 }
