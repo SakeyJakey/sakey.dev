@@ -253,6 +253,14 @@ body{
   right: 50px;
 }
 
+
+.pls-work-stick{
+  position: sticky;
+}
+
+
+
+
 /* Animations */
 
 @keyframes FadeAndFlyIn{
