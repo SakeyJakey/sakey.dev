@@ -1,0 +1,29 @@
+*{
+    scroll-behavior: smooth;
+     /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+ /* Hide scrollbar for webkit */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-snap{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+.scroll-snap-align-start{
+    scroll-snap-align: start;
+}
+
+body{
+    font-family: "Gilroy ExtraBold";
+  }
+  @font-face {
+    font-family: 'gilroyextrabold';
+    src: url('./gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('./gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
